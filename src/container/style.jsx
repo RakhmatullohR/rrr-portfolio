@@ -170,7 +170,7 @@ export const AppWorkWrapper = styled.div`
   flex: 1;
   width: 100%;
   flex-direction: column;
-  background: #ffd3d3ac;
+  background: #fd6969ac;
   padding: 6rem 0 6rem;
 
   .app__work-filter {
