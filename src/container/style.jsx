@@ -516,6 +516,7 @@ export const AppFooter = styled.div`
     min-width: 320px;
     max-width: 350px;
     color: black;
+    cursor: pointer;
     svg {
       min-width: 30px;
       min-height: 30px;
