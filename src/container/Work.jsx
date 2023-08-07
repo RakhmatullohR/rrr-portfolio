@@ -12,8 +12,8 @@ export default function Work() {
 
   useEffect(() => {
     setWorks(worksList);
-    setFilterWork(worksList);
-  }, []);
+    setFilterWork(works.filter((work) => work.tags.includes('react js')));
+  }, [works]);
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
     setAnimateCard([{ y: 100, opacity: 0 }]);
@@ -37,7 +37,7 @@ export default function Work() {
       </h2>
 
       <div className='app__work-filter'>
-        {['HTML and CSS', 'React JS', 'Vue JS', 'All'].map((item, index) => (
+        {['HTML/CSS/JS', 'React JS', 'Vue JS', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}

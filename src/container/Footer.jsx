@@ -15,18 +15,33 @@ export default function Footer() {
         </div>
       </div>
       <div className='social_link_wrapper app__flex'>
-        <div className='social_link'>
+        <a
+          className='social_link'
+          href='mailto:rrr.engineer.94@gmail.com'
+          target='_blank'
+          rel='noreferrer'
+        >
           <AiFillMail />
           <span>rrr.engineer.94@gmail.com</span>
-        </div>
-        <div className='social_link'>
+        </a>
+        <a
+          className='social_link'
+          href='tel:+998900995594'
+          target='_blank'
+          rel='noreferrer'
+        >
           <FaSquarePhone />
           <span>+99890-099-55-94</span>
-        </div>
-        <div className='social_link'>
+        </a>
+        <a
+          className='social_link'
+          href='https://t.me/RakhmatullohR'
+          target='_blank'
+          rel='noreferrer'
+        >
           <FaTelegram />
           <span>@RakhmatullohR</span>
-        </div>
+        </a>
       </div>
       <div className='footer_text'>© Digital One 2023. All rights reserved</div>
     </AppFooter>

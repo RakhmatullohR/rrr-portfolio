@@ -61,6 +61,14 @@ export default function Navbar() {
                     </li>
                   );
                 })}
+                <li>
+                  <span
+                    onClick={onButtonClick}
+                    style={{ color: 'red', cursor: 'pointer' }}
+                  >
+                    RESUME
+                  </span>
+                </li>
               </ul>
             </motion.div>
           )}

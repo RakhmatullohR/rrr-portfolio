@@ -1,5 +1,5 @@
 import { styled } from 'styled-components';
-import img from '../assets/bg-img.png'
+import img from '../assets/bg-img.png';
 
 export const AppHeader = styled.div`
   position: relative;
@@ -501,6 +501,7 @@ export const AppFooter = styled.div`
   }
   .social_link {
     display: flex;
+    text-decoration: none;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
@@ -514,6 +515,7 @@ export const AppFooter = styled.div`
     font-size: 1.2rem;
     min-width: 320px;
     max-width: 350px;
+    color: black;
     svg {
       min-width: 30px;
       min-height: 30px;
